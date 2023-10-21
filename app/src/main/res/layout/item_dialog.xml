@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Holat"
+        android:id="@+id/item_holat"
+        android:background="#A6FFF2"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Matn"
+        android:id="@+id/item_matn"
+        android:layout_marginTop="5dp"
+        android:background="#A6FFF2"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:hint="Oxirgi muddat"
+        android:id="@+id/item_muddat"
+        android:layout_marginTop="5dp"
+        android:background="#A6FFF2"
+        android:padding="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_sarlavha"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="Sarlavha"
+        android:background="#A6FFF2"
+        android:padding="10dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cornerRadius="5dp"
+        android:text="Save"
+        android:id="@+id/item_btn_save"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="20dp"/>
+
+</LinearLayout>
